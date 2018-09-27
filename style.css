@@ -1,21 +1,24 @@
-/* header, section, footer, aside, nav, article, figure, figcaption { */
+header, section, footer, aside, nav, article, figure, figcaption {
     display: block;}
 body {
     color: #666666;
+    /* background-color: #000000; */
     background-color: #f9f8f6;
-    background-image: url("images/dark-wood.jpg");
+    background-image: url("./images/bkgChop.jpg");
+    background-size: 100%;
     background-position: center;
+    background-repeat: no-repeat;
     font-family: Georgia, Times, serif;
     line-height: 1.4em;
     margin: 0px;}
 .wrapper {
-    width: 940px;
+    width: 960px;
     margin: 20px auto 20px auto;
     border: 2px solid #000000;
     background-color: #ffffff;}
 header {
     height: 160px;
-    background-image: url(images/header.jpg);}
+    background-image: url(./images/header.jpg);}
 h1 {
     text-indent: -9999px;
     width: 940px;
@@ -52,6 +55,7 @@ figure {
     height: 220px;
     padding: 5px;
     margin: 20px;
+    background-size: contain;
     border: 1px solid #eeeeee;}
 figcaption {
     font-size: 90%;
