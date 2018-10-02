@@ -19,7 +19,7 @@ $(document).ready(function() {
   {
   var word = $("#recipes").val();
   // var queryURL = "https://www.food2fork.com/api/get?key=1da509da23ed2e8894b619e4e4dc25bb&rId=35382";
-  var queryURL = "https://www.food2fork.com/api/search?key=1da509da23ed2e8894b619e4e4dc25bb&q="+ word +"&page=2";
+  var queryURL = "https://www.food2fork.com/api/search?key=05873da63fa0fa406e14216e4ded97ff&q="+ word +"&page=2";
   $.ajax({
     url: queryURL,
     method: "GET",
