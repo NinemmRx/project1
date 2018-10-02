@@ -6,11 +6,12 @@
 $(document).ready(function () {
   $( window ).on( "load", function() {
     
-    $("#cuisine").val("Mexican");
-    console.log("#cuisine");
+   // $("input:hidden#cuisine").val("");
+    $("#cuisine").val("");
+    //console.log("#cuisine");
     findRestaurants();
   })
-  
+
   $("#submit").on("click", function (event) {
     console.log("submit clicked")
     event.preventDefault();
@@ -67,7 +68,7 @@ $(document).ready(function () {
         $("#tbody").append(tableRow);
         
       }
-      $("#cuisine").val("").trim();
+     
       
 
 
