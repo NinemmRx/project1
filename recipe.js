@@ -3,7 +3,7 @@ $(document).ready(function() {
   $( window ).on( "load", function() {
     console.log("Window is ready!");
    // $("input:hidden#recipes").val("pizza");
-   $("#recipes").val("Mexican");
+//    $("#recipes").val("Mexican");
     //console.log("#cuisine");
     findRecipes();
   })
