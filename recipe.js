@@ -3,8 +3,9 @@ $(document).ready(function() {
   $( window ).on( "load", function() {
     console.log("Window is ready!");
    // $("input:hidden#recipes").val("pizza");
-//    $("#recipes").val("Mexican");
-    //console.log("#cuisine");
+   $("#recipes").val("");
+    console.log("jQuery does not break!")
+    
     findRecipes();
   })
 
@@ -21,6 +22,7 @@ $(document).ready(function() {
   {
     console.log("Attempting to make API call");
   var word = $("#recipes").val();
+    console.log("Value of word: " + word);
   // var queryURL = "https://www.food2fork.com/api/get?key=1da509da23ed2e8894b619e4e4dc25bb&rId=35382";
   var queryURL = "https://www.food2fork.com/api/search?key=05873da63fa0fa406e14216e4ded97ff&q="+ word +"&page=2";
   $.ajax({
