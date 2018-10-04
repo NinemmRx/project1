@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $( window ).on( "load", function() {
    // $("input:hidden#recipes").val("pizza");
-   $("#recipes").val("");
+   $("#recipes").val("Mexican");
     //console.log("#cuisine");
     findRecipes();
   })
