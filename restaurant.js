@@ -7,7 +7,7 @@ $(document).ready(function () {
   $( window ).on( "load", function() {
     
    // $("input:hidden#cuisine").val("");
-    $("#cuisine").val("");
+   // $("#cuisine").val("");
     //console.log("#cuisine");
     findRestaurants();
   })
