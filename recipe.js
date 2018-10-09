@@ -3,7 +3,7 @@ $(document).ready(function() {
   $( window ).on( "load", function() {
     console.log("Window is ready!");
    // $("input:hidden#recipes").val("pizza");
-   $("#recipes").val("");
+  // $("#recipes").val("");
     console.log("jQuery does not break!")
     
     findRecipes();
